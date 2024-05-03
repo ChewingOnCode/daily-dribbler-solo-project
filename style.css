@@ -1,0 +1,58 @@
+/* h1 color #121212 */
+/* border width 3px solid black  for outline and input item*/
+/* Width of image is 380 pixels */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter {
+  border: 3px solid #121212;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsletterTitle {
+  color: #121212;
+}
+
+#newsletterPhoto {
+  max-width: 380px;
+}
+
+.newsletterSub {
+  padding: 10px 10px;
+  max-width: 380px;
+  margin: 10px auto 30px auto;
+}
+
+#newsletterInput {
+  border: 3px solid #121212;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#newsletterSubmitButton {
+  padding: 10px 30px;
+  width: calc(100% - 45%);
+  background: #121212;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+
+.terms {
+  color: #121212;
+}
+
+.terms a {
+  color: #121212;
+}
